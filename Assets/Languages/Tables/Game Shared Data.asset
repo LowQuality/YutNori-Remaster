@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Game Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Game
+  m_TableCollectionNameGuidString: 0335d4884d39a6048abcfb8fce3b184a
+  m_Entries:
+  - m_Id: 128638246912
+    m_Key: title.game_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14817419264
+    m_Key: button.online_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3385687269376
+    m_Key: button.online_mode.nickname.placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3558475816960
+    m_Key: button.online_mode.join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66289917952
+    m_Key: button.offline_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668437884928
+    m_Key: button.offline_mode.headcount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3753217351680
+    m_Key: button.offline_mode.horcecount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3791310020608
+    m_Key: button.offline_mode.gamestart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3828484136960
+    m_Key: button.settings
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 106732156354297858
+  references:
+    version: 2
+    RefIds:
+    - rid: 106732156354297858
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1721110924022
