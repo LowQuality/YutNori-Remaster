@@ -18,7 +18,13 @@ MonoBehaviour:
   m_GUID: c8e83a751eb46034887c4d87c7f1e291
   m_SerializeEntries:
   - m_GUID: fa04d7ec396dd7045b883a96c89a2ae4
-    m_Address: Game_ja-JP
+    m_Address: Title_ja-JP
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja-JP
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2b82be627513a3439df86ec8cde08b6
+    m_Address: OfflineGameMode_ja-JP
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ja-JP

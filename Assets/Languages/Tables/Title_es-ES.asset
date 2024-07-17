@@ -10,50 +10,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Game_fr-FR
+  m_Name: Title_es-ES
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: fr-FR
+    m_Code: es-ES
   m_SharedData: {fileID: 11400000, guid: 0335d4884d39a6048abcfb8fce3b184a, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 106732181401632795
   m_TableData:
   - m_Id: 128638246912
-    m_Localized: "Yutnori - Remasteris\xE9"
+    m_Localized: Yutnori - Remasterizado
     m_Metadata:
       m_Items: []
   - m_Id: 14817419264
-    m_Localized: Mode en ligne
+    m_Localized: "Modo en l\xEDnea"
     m_Metadata:
       m_Items: []
   - m_Id: 66289917952
-    m_Localized: Mode hors ligne
+    m_Localized: "Modo sin conexi\xF3n"
     m_Metadata:
       m_Items: []
   - m_Id: 3385687269376
-    m_Localized: Veuillez entrer un pseudo.
+    m_Localized: Por favor, introduce un apodo.
     m_Metadata:
       m_Items: []
   - m_Id: 3558475816960
-    m_Localized: Rejoindre
+    m_Localized: Unirse
     m_Metadata:
       m_Items: []
   - m_Id: 3668437884928
-    m_Localized: Nombre de joueurs
+    m_Localized: "N\xFAmero de jugadores"
     m_Metadata:
       m_Items: []
   - m_Id: 3753217351680
-    m_Localized: Nombre de chevaux
+    m_Localized: "N\xFAmero de caballos"
     m_Metadata:
       m_Items: []
   - m_Id: 3791310020608
-    m_Localized: "D\xE9marrer le jeu"
+    m_Localized: Inicio del juego
     m_Metadata:
       m_Items: []
   - m_Id: 3828484136960
-    m_Localized: "Param\xE8tres"
+    m_Localized: "Configuraci\xF3n"
     m_Metadata:
       m_Items: []
+  - m_Id: 384646633218048
+    m_Localized: 'By - LowQuality
+
+      Version : {information.version}'
+    m_Metadata:
+      m_Items:
+      - rid: 106732181401632795
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 106732181401632795
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 384646633218048

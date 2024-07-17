@@ -18,7 +18,13 @@ MonoBehaviour:
   m_GUID: 409fd1e95a44f1840b2b9cad3e48823d
   m_SerializeEntries:
   - m_GUID: 52da32668cc9d1241936535d3ca5514b
-    m_Address: Game_vi-VN
+    m_Address: Title_vi-VN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi-VN
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0be8c4a1e6e181643a9f705cf4068763
+    m_Address: OfflineGameMode_vi-VN
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-vi-VN

@@ -18,7 +18,13 @@ MonoBehaviour:
   m_GUID: 7974ed69a9177c54eba45b93501bd39f
   m_SerializeEntries:
   - m_GUID: bf33ce3fc0d2d5645b34cf287dd3400d
-    m_Address: Game_ko-KR
+    m_Address: Title_ko-KR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ko-KR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9428e545917fb72439c9a200e0b67f4c
+    m_Address: OfflineGameMode_ko-KR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ko-KR

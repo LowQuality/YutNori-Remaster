@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Game Shared Data
+  m_Name: Title Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Game
+  m_TableCollectionName: Title
   m_TableCollectionNameGuidString: 0335d4884d39a6048abcfb8fce3b184a
   m_Entries:
   - m_Id: 128638246912
@@ -43,12 +43,24 @@ MonoBehaviour:
     m_Key: button.offline_mode.horcecount
     m_Metadata:
       m_Items: []
+  - m_Id: 326402313281536
+    m_Key: button.offline_mode.botcount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335290844569600
+    m_Key: button.offline_mode.simulationspeed
+    m_Metadata:
+      m_Items: []
   - m_Id: 3791310020608
     m_Key: button.offline_mode.gamestart
     m_Metadata:
       m_Items: []
   - m_Id: 3828484136960
     m_Key: button.settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384646633218048
+    m_Key: information.version
     m_Metadata:
       m_Items: []
   m_Metadata:

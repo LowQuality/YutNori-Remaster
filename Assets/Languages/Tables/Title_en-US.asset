@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Game_en-US
+  m_Name: Title_en-US
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: en-US
   m_SharedData: {fileID: 11400000, guid: 0335d4884d39a6048abcfb8fce3b184a, type: 2}
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 106732181401632790
   m_TableData:
   - m_Id: 14817419264
     m_Localized: Online Mode
@@ -54,6 +55,27 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 326402313281536
+    m_Localized: Number of bots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335290844569600
+    m_Localized: Simulation Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384646633218048
+    m_Localized: 'By - LowQuality
+
+      Version : {information.version}'
+    m_Metadata:
+      m_Items:
+      - rid: 106732181401632790
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 106732181401632790
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 
+        m_SharedEntries:
+        - id: 384646633218048

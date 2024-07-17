@@ -20,7 +20,13 @@ MonoBehaviour:
   m_GUID: d3895df343144e14ca1fcdf1939daf97
   m_SerializeEntries:
   - m_GUID: 84405647ce391ce419ef25cca3154f24
-    m_Address: Game_ru-RU
+    m_Address: Title_ru-RU
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru-RU
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 687d7c055ff52a7428533433597152e9
+    m_Address: OfflineGameMode_ru-RU
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru-RU

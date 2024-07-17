@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: OfflineGameMode
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 19a0908a158767c4abb09c3f6e445e70, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: f7d49f37e0140204e829319a498b772d, type: 2}
+  - {fileID: 11400000, guid: 9428e545917fb72439c9a200e0b67f4c, type: 2}
+  - {fileID: 11400000, guid: a2b82be627513a3439df86ec8cde08b6, type: 2}
+  - {fileID: 11400000, guid: bdb2a37fe1cece34ba92dd4caa374909, type: 2}
+  - {fileID: 11400000, guid: 0be8c4a1e6e181643a9f705cf4068763, type: 2}
+  - {fileID: 11400000, guid: fe1a2582c1d87d642811032a476f263c, type: 2}
+  - {fileID: 11400000, guid: b71c2968bcdb7b04eb2ca024df6c371f, type: 2}
+  - {fileID: 11400000, guid: 687d7c055ff52a7428533433597152e9, type: 2}
+  - {fileID: 11400000, guid: b0788c5119152f647887726e7b2afac0, type: 2}
+  - {fileID: 11400000, guid: 89646e9ccd31a1e45b0ee76d1d6dd340, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

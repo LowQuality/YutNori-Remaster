@@ -8,11 +8,24 @@ namespace Management
     {
         [SerializeField] private Image fadeScreen;
         
+        public static FadeManager GlobalInstance { get; private set; }
         public static FadeManager Instance { get; private set; }
 
         private void Awake()
         {
-            if (Instance == null)
+            if (gameObject.CompareTag("Global"))
+            {
+                if (GlobalInstance == null)
+                {
+                    GlobalInstance = this;
+                    DontDestroyOnLoad(gameObject);
+                }
+                else
+                {
+                    Destroy(gameObject);
+                }
+            }
+            else
             {
                 Instance = this;
             }

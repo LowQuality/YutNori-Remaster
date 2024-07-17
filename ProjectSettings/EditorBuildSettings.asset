@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/OfflineMode/ColorSelection.unity
+    guid: 4df0098c5997b0d4d9fb4b2b84a33541
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 64f41e5ec4585734c813cc26426a97ff, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: dfcf0d66d1ecb42479fce6db7d4e4a7f, type: 2}
